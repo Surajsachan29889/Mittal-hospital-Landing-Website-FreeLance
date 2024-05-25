@@ -16,14 +16,14 @@ function Category() {
         </h2>
         <div className="flex  lg:flex-row flex-col lg:gap-[10%] gap-[7vh] lg:h-full h-[100vh] w-full justify-center items-center">
           <Card
-            image="/generalmedicine.png"
+            image="/pediatrics.png"
             title="Pediatrics"
             para=
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
             
           />
           <Card
-            image="/OB-GYN.png"
+            image="/OB-gyn.png"
             title="OB-GYN"
             para=
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
