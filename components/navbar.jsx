@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import VercelLogo from "../public/vercel.svg";
+import Logo from "../public/MITTAL HOSPITAL.png";
 import Link from "next/link";
 import { AiFillHome, AiFillPhone, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -22,9 +22,9 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full bg-[#ffffff39] shadow-xl backdrop-blur-[10px] z-20">
-      <div className="h-[13vh] w-full px-[2rem] lg:px-[10rem] flex justify-between items-center">
-        <div className="w-[30%] lg:w-[10%]">
-          <Image src={VercelLogo} alt="Vercel Logo" />
+      <div className="h-[16vh] w-full px-[2rem] lg:px-[10rem] flex justify-between items-center">
+        <div className="w-[30%]  lg:w-[10%]">
+          <Image src={Logo} alt="Vercel Logo"/>
         </div>
         <div className="lg:hidden">
           <button onClick={toggleMenu}>

@@ -23,7 +23,8 @@ body {
 .btn-book:hover{
   box-shadow: -10px 10px  black;
   transform: translateX(10px);
-  
-
 }
-
+.card:hover{
+  box-shadow: -10px 10px  black;
+  transform: translateX(10px);
+}
