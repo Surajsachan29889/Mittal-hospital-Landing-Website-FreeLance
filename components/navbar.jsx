@@ -20,6 +20,31 @@ function Navbar() {
     }
   }, [menuOpen]);
 
+  useEffect(() => {
+    const handleSmoothScroll = (e) => {
+      e.preventDefault();
+      const targetId = e.currentTarget.getAttribute('href').slice(1);
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    };
+
+    const links = document.querySelectorAll('nav a[data-scroll]');
+    links.forEach(link => {
+      link.addEventListener('click', handleSmoothScroll);
+    });
+
+    return () => {
+      links.forEach(link => {
+        link.removeEventListener('click', handleSmoothScroll);
+      });
+    };
+  }, []);
+
   return (
     <nav className="fixed top-0 w-full bg-[#ffffff39] shadow-xl backdrop-blur-[10px] z-20">
       <div className="h-[16vh] w-full px-[2rem] lg:px-[10rem] flex justify-between items-center">
@@ -38,23 +63,23 @@ function Navbar() {
         >
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 flex gap-2 justify-center items-center lg:my-0 my-4">
             <AiFillHome />
-            <Link href="#">
+            <Link href="#" data-scroll>
               <span className="mt-[.5px]">Home</span>
             </Link>
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-100 lg:my-0 my-4">
-            <Link href="#">
+            <Link href="#about-us" data-scroll>
               <span>About Us</span>
             </Link>
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 lg:my-0 my-4">
-            <Link href="#">
+            <Link href="#service" data-scroll>
               <span>Our Service</span>
             </Link>
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 flex gap-1 justify-center items-center lg:my-0 my-4">
             <AiFillPhone />
-            <Link href="#">
+            <Link href="#contact" data-scroll>
               <span>1234567890</span>
             </Link>
           </div>

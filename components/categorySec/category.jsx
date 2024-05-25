@@ -6,7 +6,7 @@ import Card from "./Card";
 
 function Category() {
   return (
-    <div className="lg:h-[120vh] h-[200vh] flex justify-center items-center px-[2rem]">
+    <div className="lg:h-[120vh] h-[200vh] flex justify-center items-center px-[2rem]" id="service">
       <div className="flex flex-col gap-11 justify-center items-center h-[60%]">
         <h1 className="lg:text-[3vw] text-[5vw] font-extrabold"><span className="text-pri">Expert</span> Care Nationwide</h1>
         <h2 className="w-[50%] text-center lg:block hidden">
