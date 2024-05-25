@@ -10,7 +10,7 @@ function Card({image,span,title,para}) {
           <img src={image} alt='..'/>
         </div>
         <div className="p-6">
-          <h5 className="mb-2 block font-sans lg:text-[2vw] text-center text-[7vw] font-extrabold leading-snug tracking-normal text-blue-gray-900 antialiased"><span className='text-pri'>{span}</span>
+          <h5 className="mb-2 block font-sans lg:text-[2vw]  text-center text-[7vw] font-extrabold leading-snug tracking-normal text-blue-gray-900 antialiased"><span className='text-pri'>{span}</span>
           {title}
           </h5>
           <p className="lg:block hidden font-sans text-[1vw] font-light leading-relaxed text-inherit antialiased">
