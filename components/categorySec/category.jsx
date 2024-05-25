@@ -17,21 +17,24 @@ function Category() {
         <div className="flex  lg:flex-row flex-col lg:gap-[10%] gap-[7vh] lg:h-full h-[100vh] w-full justify-center items-center">
           <Card
             image="/pediatrics.png"
-            title="Pediatrics"
+            span="P"
+            title="ediatrics"
             para=
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
             
           />
           <Card
             image="/OB-gyn.png"
-            title="OB-GYN"
+            span="OB"
+            title="-GYN"
             para=
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
             
           />
           <Card
             image="/generalmedicine.png"
-            title="General Medicine"
+            span="General"
+            title=" Medicine"
             para=
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
             
