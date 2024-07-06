@@ -47,7 +47,7 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full bg-[#ffffff39] shadow-xl backdrop-blur-[10px] z-20">
-      <div className="h-[16vh] w-full px-[2rem] lg:px-[10rem] flex justify-between items-center">
+      <div className="h-[16vh] w-full px-[2rem] lg:px-[10%] flex justify-between items-center">
         <div className="w-[30%]  lg:w-[10%]">
           <Image src={Logo} alt="Vercel Logo"/>
         </div>
@@ -57,7 +57,7 @@ function Navbar() {
           </button>
         </div>
         <div
-          className={`flex lg:gap-12 gap-5 font-extrabold items-center justify-center w-full lg:w-auto fixed lg:static top-[13vh] left-0 lg:top-0 bg-white lg:bg-transparent h-screen lg:h-auto transition-all duration-300 ease-in-out ${
+          className={`flex lg:gap-[10%] gap-5 font-extrabold items-center justify-center w-full lg:w-auto fixed lg:static top-[13vh] left-0 lg:top-0 bg-white lg:bg-transparent h-screen lg:h-auto transition-all duration-300 ease-in-out ${
             menuOpen ? 'opacity-100 z-20 transform translate-y-0' : 'opacity-0 lg:opacity-100 -z-10 lg:z-0 transform -translate-y-full lg:translate-y-0'
           } flex-col lg:flex-row`}
         >
@@ -69,12 +69,12 @@ function Navbar() {
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-100 lg:my-0 my-4">
             <Link href="#about-us" data-scroll>
-              <span>About Us</span>
+              <span>About</span>
             </Link>
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 lg:my-0 my-4">
             <Link href="#service" data-scroll>
-              <span>Our Service</span>
+              <span>Services</span>
             </Link>
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 flex gap-1 justify-center items-center lg:my-0 my-4">

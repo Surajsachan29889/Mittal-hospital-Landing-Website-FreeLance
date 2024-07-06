@@ -2,8 +2,9 @@ import Hero from "@/components/Hero";
 import AboutUs from "@/components/aboutUs";
 import Category from "@/components/category";
 import Doctorsec from "@/components/doctorsec";
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutUs/>
       <Category/>
       <Doctorsec/>
+      <Footer/>
       
     </main>
   );

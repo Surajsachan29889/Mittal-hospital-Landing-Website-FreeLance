@@ -15,10 +15,19 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
- 
+/* 
+.hero{
+  background-image: url('../public/herobg2.jpg');
+  background-size: cover;
+  filter: brightness(50%);
+  filter: blur(3px);
 }
+.hero{
+  background-image: url('../public/herobg2.jpg');
+  background-size: cover;
+  filter: brightness(50%);
+  filter: blur(3px);
+} */
 
 .btn-book:hover{
   box-shadow: -10px 10px  black;
@@ -31,4 +40,19 @@ body {
 .doctorcard:hover{
   box-shadow: 10px 10px 100px black;
   transform: scale(1.03);
+}
+.flyinghero img{
+  animation: flyinghero 2s infinite ease-in-out;
+  filter: drop-shadow(20px 20px 20px);
+}
+@keyframes flyinghero {
+    0%{
+      transform: translateY(12px);
+    }
+    50%{
+      transform: translateY(-12px);
+    }
+    100%{
+      transform: translateY(12px);
+    }  
 }
