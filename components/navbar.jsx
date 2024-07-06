@@ -84,9 +84,11 @@ function Navbar() {
             </Link>
           </div>
           <div className="my-4 lg:my-0">
-            <button className="w-[12rem] h-[3rem] bg-[#53bdff] text-[1rem] text-white rounded-lg btn-book duration-100">
-              Book Appointment
-            </button>
+            <a href="https://appointment-nine.vercel.app/" target="_blank">
+              <button className="w-[12rem] h-[3rem] bg-[#53bdff] text-[1rem] text-white rounded-lg btn-book duration-100">
+                Book Appointment
+              </button>
+            </a>
           </div>
         </div>
       </div>

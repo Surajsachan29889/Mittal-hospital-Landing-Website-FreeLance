@@ -10,9 +10,11 @@ function Hero() {
           <div className='h-[100%] lg:w-[50%] flex justify-center lg:items-start items-center flex-col gap-5'>
             <h1 className='lg:text-[5vw] text-[10vw] font-extrabold text-black'><span className='text-pri'>We are here <br /></span> for your Care</h1>
             <p className='lg:text-[2vw] text-[4vw] font-semibold'> <span className='text-pri'>Find your Doctor</span>  and Book your Appointment</p>
-            <button className="w-[12rem] h-[3rem] bg-[#53bdff] text-[1rem] font-bold text-white rounded-lg btn-book duration-100">
-              Book Appointment
-            </button>
+            <a href="https://appointment-nine.vercel.app/" target='_blank'>
+              <button className="w-[12rem] h-[3rem] bg-[#53bdff] text-[1rem] font-bold text-white rounded-lg btn-book duration-100">
+                Book Appointment
+              </button>
+            </a>
           </div>
           <div className='h-[100%] lg:w-[50%] w-[100%] flex justify-center items-center flyinghero'>
             <img src='/flyingHero.png' alt='flying doctor image' className='h-[100%] w-[70%] backdrop-shadow-lg'/>
