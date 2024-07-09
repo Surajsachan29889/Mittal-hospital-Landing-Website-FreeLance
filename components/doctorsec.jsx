@@ -14,15 +14,18 @@ function Doctorsec() {
             </h2>
             <div className='h-[70vh] flex lg:flex-row flex-col  gap-[10%] w-full justify-center items-center'>
                 <DoctorCard
-
+                    degree="M.B.B.S.(Hons.) D.C.H"
                     image="/doctor1.png"
-                    name="Jonh Doe"
-                    specialization="UVWXYZ"
+                    name="Subhash Mittal"
+                    specialization="Consultant Physician"
+                    link="#"
                 />
                 <DoctorCard
+                    degree="M.B.B.S., D.G.O., F.I.N.M.C.H."
                     image="/doctor2.png"
                     name="Renuka Mittal"
-                    specialization="UVWXYZ"
+                    specialization="Consultant Gynaecologist"
+                    link="#"
                 />
             </div>
         </div>

@@ -43,10 +43,9 @@ function Footer() {
           </div>
           <div className="flex flex-col gap-3 text-[#909090]">
             <h1 className="text-pri font-bold">Treatments</h1>
-            <h1>Home</h1>
-            <h1>About</h1>
-            <h1>Contact Us</h1>
-            <h1>FAQ</h1>
+            <h1>OB-GYN</h1>
+            <h1>Genral Medcine</h1>
+            <h1>Pediatric</h1>
           </div>
           {/* <Map address="59/3N/2E, Tantpur Rd, Ayodhya
 Kunj-A, Dashrath Kunj - B, Jodha Bai ka Rauza, Arjun Nagar, Agra, Uttar Pradesh

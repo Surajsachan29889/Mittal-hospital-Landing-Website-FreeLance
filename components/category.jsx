@@ -10,9 +10,7 @@ function Category() {
       <div className="flex flex-col lg:gap-10 justify-center items-center lg:h-[60%]">
         <h1 className="lg:text-[3vw] h-[40vh] text-[6vw] font-extrabold"><span className="text-pri">Expert</span> Care Nationwide</h1>
         <h2 className="w-[50%] text-center h-[50vh] lg:block hidden lg:pb-10">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-          voluptate non explicabo praesentium necessitatibus facilis architecto?
-          Odit magnam reiciendis ab excepturi ad exercitationem, quibusdam modi
+        Our hospital offers specialized care in Gynecology, General Medicine, and Pediatrics. Gynecology focuses on women's reproductive health, pregnancy, and childbirth. General Medicine provides comprehensive care for adults, managing chronic conditions and promoting overall well-being.
         </h2>
         <div className="flex  lg:flex-row flex-col lg:gap-[10%] gap-[7vh] lg:h-full h-[100vh] w-full justify-center items-center">
           <Card
@@ -20,7 +18,7 @@ function Category() {
             span="P"
             title="ediatrics"
             para=
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
+              " Pediatricians are doctors who manage the health of your child, including physical, behavior, and mental health issues. They are trained to diagnose and treat a broad range of childhood illnesses, from minor health problems to serious diseases."
             
           />
           <Card
@@ -28,7 +26,7 @@ function Category() {
             span="OB"
             title="-GYN"
             para=
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
+              "OB-GYN stands for obstetrics and gynecology, which is a medical specialty that focuses on women's reproductive health. Obstetrics involves care during pre-conception, pregnancy, childbirth, and immediately after delivery."
             
           />
           <Card
@@ -36,7 +34,7 @@ function Category() {
             span="General"
             title=" Medicine"
             para=
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptate non explicabo praesentium necessitatibus facilis architecto?"
+              " They provide comprehensive care, including routine check-ups, health-risk assessments, immunizations, and preventive care. Internists are skilled in managing diseases that affect various organ systems."
             
           />
         </div>
