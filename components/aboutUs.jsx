@@ -8,7 +8,9 @@ function AboutUs() {
   const handleMouseEnter = () => {
     setIsHovered(true);
     if (videoRef.current) {
-      videoRef.current.play();
+      videoRef.current.play().catch(error => {
+        console.error('Failed to play video:', error);
+      });
     }
   };
 
@@ -37,12 +39,11 @@ function AboutUs() {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-
               <div className="h-[90%] top-[-1%] w-full absolute bg-pri rounded-2xl z-[-1] left-[-17%] rotate-[-13deg]"></div>
               <h1 className={`text-[black] lg:text-[2vw] text-[4vw] font-extrabold absolute bottom-[40%] lg:ml-0 ml-2 text-center  z-20 ${isHovered ? 'hidden' : ''}`}>Hover to Play Video</h1>
               <video ref={videoRef} className={`h-[100%] w-full rounded-2xl duration-500 ${isHovered? '' : 'blur-md'}`}>
                 <source src="/about.mp4" type="video/mp4" />
-                <div className="loader"></div> 
+                Your browser does not support the video tag.
               </video>
             </div>
           </div>

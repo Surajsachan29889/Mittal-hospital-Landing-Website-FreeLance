@@ -46,7 +46,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="fixed top-0 w-full bg-[#ffffff39] shadow-xl backdrop-blur-[10px] z-20">
+    <nav className="fixed top-0 w-full bg-[#ffffff39] shadow-xl backdrop-blur-[10px] z-[1000]">
       <div className="h-[16vh] w-full px-[2rem] lg:px-[10%] flex justify-between items-center">
         <div className="w-[30%]  lg:w-[10%]">
           <Image src={Logo} alt="Vercel Logo"/>

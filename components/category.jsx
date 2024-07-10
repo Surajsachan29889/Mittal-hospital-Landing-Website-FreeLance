@@ -19,7 +19,7 @@ function Category() {
             title="ediatrics"
             para=
               " Pediatricians are doctors who manage the health of your child, including physical, behavior, and mental health issues. They are trained to diagnose and treat a broad range of childhood illnesses, from minor health problems to serious diseases."
-            
+            link="https://en.wikipedia.org/wiki/Pediatrics"
           />
           <Card
             image="/OB-gyn.png"
@@ -27,7 +27,7 @@ function Category() {
             title="-GYN"
             para=
               "OB-GYN stands for obstetrics and gynecology, which is a medical specialty that focuses on women's reproductive health. Obstetrics involves care during pre-conception, pregnancy, childbirth, and immediately after delivery."
-            
+            link="https://en.wikipedia.org/wiki/Obstetrics_and_gynaecology"
           />
           <Card
             image="/generalmedicine.png"
@@ -35,7 +35,7 @@ function Category() {
             title=" Medicine"
             para=
               " They provide comprehensive care, including routine check-ups, health-risk assessments, immunizations, and preventive care. Internists are skilled in managing diseases that affect various organ systems."
-            
+            link="https://en.wikipedia.org/wiki/Internal_medicine"
           />
         </div>
       </div>
