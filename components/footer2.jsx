@@ -82,7 +82,7 @@ Kunj-A, <br /> Dashrath Kunj - B, Jodha Bai ka Rauza, <br /> Arjun Nagar,Agra, U
             </a>
           </div>
           <div className="text-black">
-            <span>© All Rights Reserved</span>
+            <span>Copyright © 2024 Mittal Hospital</span>
           </div>
         </div>
         <div className="w-[100%] h-[2px] bg-pri"></div>
