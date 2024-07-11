@@ -48,36 +48,18 @@ function AboutUs() {
             </div>
           </div>
           <div className="w-1/2 flex flex-col lg:items-start items-center lg:gap-[2%] gap-[5vh] lg:h-[100%]">
-            <h1 className="font-bold lg:text-[1.5vw] text-[3.5vw]">Vision</h1>
             <div className="flex gap-[2%] w-full items-start">
               <div className="h-[3px] w-[25px] bg-pri mt-[10px]"></div>
               <h1 className="lg:w-[80%] w-full font-semibold lg:text-[1vw] text-[3vw]">
-                To be the premier healthcare provider, recognized for our excellence in medical care, patient-centered approach, and commitment to advancing healthcare services, ultimately improving the health and well-being of our community.
+              Mittal Hospital situated in Arjun Nagar, Agra, is one of the oldest running hospitals in the area. It started in 1994 and is treating patients and providing healthcare since then. 
+Mittal Hospital is run by Dr Renuka Mittal (Obstetrician and gynaecologist) and Dr Subhash Mittal (General Physician and Child Specialist). 
+
               </h1>
             </div>
-            <h1 className="font-bold lg:text-[1.5vw] text-[3.5vw]">Mission</h1>
             <div className="flex gap-[2%] w-full items-start">
               <div className="h-[3px] w-[25px] bg-pri mt-[10px]"></div>
-              <h1 className="lg:w-[80%] lg:text-nowrap w-[110%] font-semibold lg:text-[1vw] text-[3vw]">
-                Provide exceptional and comprehensive healthcare services
-              </h1>
-            </div>
-            <div className="flex gap-[2%] items-start">
-              <div className="h-[3px] w-[25px] bg-pri mt-[10px]"></div>
-              <h1 className="lg:w-[80%] lg:text-nowrap w-[80%] font-semibold lg:text-[1vw] text-[3vw]">
-                Prioritize patient-centered care and satisfaction
-              </h1>
-            </div>
-            <div className="flex gap-[2%] items-start">
-              <div className="h-[3px] w-[25px] bg-pri mt-[10px]"></div>
-              <h1 className="lg:w-[80%] lg:text-nowrap w-[110%] font-semibold lg:text-[1vw] text-[3vw]">
-                Foster a culture of continuous learning and innovation
-              </h1>
-            </div>
-            <div className="flex gap-[2%] items-start">
-              <div className="h-[3px] w-[25px] bg-pri mt-[10px]"></div>
-              <h1 className="lg:w-[80%] lg:text-nowrap w-[110%] font-semibold lg:text-[1vw] text-[3vw]">
-                Cultivate strong partnerships and collaborations
+              <h1 className="lg:w-[80%] w-[100%] font-semibold lg:text-[1vw] text-[3vw]">
+              It offers all round healthcare ranging from Maternal care, Ultrasound, Deliveries, C-section and other surgeries to Child and Adult Healthcare problems. 24/7 pathology lab services, emergency care, X ray and radiological scan services are also available here.
               </h1>
             </div>
           </div>
