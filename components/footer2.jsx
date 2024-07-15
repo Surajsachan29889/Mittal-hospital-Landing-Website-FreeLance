@@ -40,7 +40,7 @@ export default function Footer2() {
               className="row-span-3 mr-[10px] pt-[5px]"
             />
             <span className="col-span-2 font-bold text-[black] ">Tele</span>
-            <p className="row-span-2 col-span-2">0562-2302308</p>
+            <p className="row-span-2 col-span-2">9045719350</p>
           </div>
           <div className="grid grid-rows-3 grid-flow-col ">
             <img
@@ -63,13 +63,13 @@ Kunj-A, <br /> Dashrath Kunj - B, Jodha Bai ka Rauza, <br /> Arjun Nagar,Agra, U
               className="row-span-3 mr-[10px] pt-[5px]"
             />
             <span className="col-span-2 font-bold  text-[black]">Mail</span>
-            <p className="row-span-2 col-span-2">connect@mittal.com</p>
+            <p className="row-span-2 col-span-2">mittalhospitalagra@gmail.com</p>
           </div>
         </div>
         <div></div>
         <div className="flex sm:gap-[23%]  gap-10 justify-center mt-[5%] mb-[5%] font-bold text-[black] text-[15px]  ">
           <div className="text-black flex sm:flex-row flex-col justify-start items-start sm:gap-20">
-            <a href="#">
+            <a href="#about-us">
               <span>About Us</span>
             </a>
             
@@ -93,7 +93,7 @@ Kunj-A, <br /> Dashrath Kunj - B, Jodha Bai ka Rauza, <br /> Arjun Nagar,Agra, U
       </div>
       <dialog   ref={dialogRef} className="h-[30%] w-[30%] rounded-lg font-bold p-[2%] backdrop:bg-black backdrop:opacity-70  ">
   <button autoFocus onClick={close} ><img src="/cross.svg" alt="" /></button>
-  <p> <span className="text-[2rem] font-extrabold text-pri ">Contact:</span> <br /> <span className="text-[1.5rem] font-extrabold text-pri">Phone:-</span> 0562-2302308<br /> <span className="text-[1.5rem] font-extrabold text-pri">E-Mail:-</span> connect@mittal.com</p>
+  <p> <span className="text-[2rem] font-extrabold text-pri ">Contact:</span> <br /> <span className="text-[1.5rem] font-extrabold text-pri">Phone:-</span>9045719350<br /> <span className="text-[1.5rem] font-extrabold text-pri">E-Mail:-</span> mittalhospitalagra@gmail.com</p>
 </dialog>
     </div>
   );

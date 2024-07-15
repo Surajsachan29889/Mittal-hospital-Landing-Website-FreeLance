@@ -80,7 +80,7 @@ function Navbar() {
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 flex gap-1 justify-center items-center lg:my-0 my-4">
             <AiFillPhone />
             <Link href="#contact" data-scroll>
-              <span>05622302308</span>
+              <span>9045719350</span>
             </Link>
           </div>
           <div className="my-4 lg:my-0">

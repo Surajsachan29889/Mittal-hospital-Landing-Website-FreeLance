@@ -18,14 +18,14 @@ function Doctorsec() {
                     image="/doctor1.png"
                     name="Subhash Mittal"
                     specialization="Consultant Physician"
-                    link="#"
+                    link="https://appointment-nine.vercel.app/doctor/book-appointment/66955fdb594629eec5838f4b"
                 />
                 <DoctorCard
                     degree="M.B.B.S., D.G.O., F.I.N.M.C.H."
                     image="/doctor2.png"
                     name="Renuka Mittal"
                     specialization="Consultant Gynaecologist"
-                    link="#"
+                    link="https://appointment-nine.vercel.app/doctor/book-appointment/66955f78594629eec5838f45"
                 />
             </div>
         </div>
