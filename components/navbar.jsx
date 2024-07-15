@@ -79,9 +79,9 @@ function Navbar() {
           </div>
           <div className="border-b-[#53bdff] hover:border-b-[.5rem] duration-75 flex gap-1 justify-center items-center lg:my-0 my-4">
             <AiFillPhone />
-            <Link href="#contact" data-scroll>
+            <a href="tel:+919045719350">
               <span>9045719350</span>
-            </Link>
+            </a>
           </div>
           <div className="my-4 lg:my-0">
             <a href="https://appointment-nine.vercel.app/" target="_blank">
